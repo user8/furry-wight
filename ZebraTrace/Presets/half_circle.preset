@@ -1,0 +1,7 @@
+{
+  "polar": 0, 
+  "funcY": "0.5*cos(a)", 
+  "funcX": "0.5*sin(a)+1-2.55*i/n", 
+  "rangeMax": 3.14159, 
+  "rangeMin": 0.0
+}
