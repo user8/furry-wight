@@ -5,7 +5,7 @@
   "version": "2013.11",
 
   "description": "Downloads mp3s from vk.com",
-  "homepage_url": "https://vk.com/",
+  "homepage_url": "https://github.com/user8/furry-wight/tree/master/vkaudio",
   "icons": { "128": "icon_128.png" },
 
   "content_scripts": [
