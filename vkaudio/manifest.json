@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "VK Audio Downloader",
+  "version": "2013.11",
+
+  "description": "Downloads mp3s from vk.com",
+  "homepage_url": "https://vk.com/",
+  "icons": { "128": "icon_128.png" },
+
+  "content_scripts": [
+    {
+      "matches": ["http://*.vk.com/*", "https://*.vk.com/*"],
+      "js": ["jquery.js", "vkaudio.js"],
+      "run_at": "document_end"
+    }
+  ]
+}
