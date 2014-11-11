@@ -1,6 +1,11 @@
 VK Audio Downloader	2013.11
 ===============================
 
+It seems to be *broken* because the VK has changed their HTML.
+Anyway, I don't have a VK account.
+
+=
+
 Google Chrome content script for mp3s downloading from vk.com.
 
 =

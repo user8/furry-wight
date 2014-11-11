@@ -1,0 +1,74 @@
+body {
+  font-family: PT Serif, Georgia, Segoe UI, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #334;
+  max-width: 750px;
+  margin: 40px auto;
+}
+
+
+h1, h2, h3, p, blockquote, ul, ol, pre, hr {
+  margin: 17px 0;
+}
+h1, h2, h3 {
+  font-weight: bold;
+  margin-top: 30px;
+}
+h1 {
+  padding-bottom:3px;
+  border-bottom: 1px solid #ddd;
+}
+
+
+a {
+  color: #4183c4;
+  text-decoration: none;
+}
+a:hover, a:focus, a:active {
+  text-decoration: underline;
+}
+
+
+img {
+  border: 0;
+  vertical-align: -25%;
+}
+
+
+strong {
+  font-weight: bold;
+}
+
+
+pre, code {
+  font-family: Liberation Mono, Consolas, Lucida Console, monospace;
+  background-color: #f5f5f2;
+  border-radius: 3px;
+  border: 1px solid #eee;
+  color: #357;
+  font-size: 14px;
+}
+pre {
+  padding: 15px;
+}
+pre code {
+  border: 0;
+}
+
+
+blockquote {
+  padding: 0 15px;
+  color: #777;
+  border-left: 4px solid #ddd;
+}
+
+ul, ol {
+  padding-left: 2em;
+}
+
+hr {
+  height: 0;
+  border: 0;
+  border-bottom: 1px solid #ddd;
+}
