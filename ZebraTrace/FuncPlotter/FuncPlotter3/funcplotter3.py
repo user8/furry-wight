@@ -121,15 +121,7 @@ class Tracer:
 			# append
 			if d3:
 				x1, y1 = coords[i+1][0], coords[i+1][1]
-				if pre_x < x1:
-					alpha = atan((y1 - pre_y) / (x1 - pre_x)) + pi / 2
-				elif pre_x > x1:
-					alpha = atan((y1 - pre_y) / (x1 - pre_x)) + pi / 2 + pi
-				else:
-					if pre_y < y1:
-						alpha = pi
-					else:
-						alpha = 0
+				alpha = atan2(y1 - pre_y, x1 - pre_x) + pi / 2      # atan2 is used
 				dx = d3 * cos(alpha)
 				dy = d3 * sin(alpha)
 			else:
